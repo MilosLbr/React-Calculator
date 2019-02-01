@@ -1,0 +1,23 @@
+.display{
+    padding: 0 3px 0 3px;
+    text-align: right;
+    background-color: rgb(212, 226, 227);
+    border: 1px solid #ccc;
+    min-height: 38px;
+    line-height: 37px;
+    font-family: 'Orbitron', sans-serif;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.displayTop {
+    font-size: 0.85rem;
+    border-radius: 3px 3px 0 0;
+    border-bottom: none;
+}
+
+.displayBottom{
+    font-size: 1.05rem;
+    border-radius: 0 0 3px 3px;
+    border-top: none;
+}

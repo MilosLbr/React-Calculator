@@ -1,0 +1,56 @@
+.btn{
+        background-color: #e7e7e7; 
+        border: none;
+        color: white;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 18px;
+        border-radius: 6px;
+        cursor: pointer;
+        outline: none;
+}
+.btnDigit{
+        background-color: rgb(167, 167, 167);
+        box-shadow: 0 4px rgb(150, 150, 150)
+}
+.btnDigit:active{
+        transform: translateY(4px);
+        box-shadow: 0 2px rgb(140,140,140);
+}
+
+.btnOperation{
+        background-color: #343a40;
+        box-shadow: 0 4px #272b30;
+}
+.btnOperation:active{
+        transform: translateY(4px);
+        box-shadow: 0 2px #272b30;
+}
+
+.btnEqualize{
+        background-color: #28a745;
+        box-shadow: 0 4px #208839;
+}
+.btnEqualize:active{
+        transform: translateY(4px);
+        box-shadow: 0 2px #208839;
+}
+
+.btnDanger{
+        background-color: #dc3545;
+        box-shadow: 0 4px #b92d3b;
+}
+.btnDanger:active{
+        transform: translateY(4px);
+        box-shadow: 0 2px #b92d3b;
+}
+.btnWarning{
+        background-color: #ffc107;
+        box-shadow: 0 4px #c79706;
+}
+.btnWarning:active{
+        transform: translateY(4px);
+        box-shadow: 0 2px #c79706;
+}

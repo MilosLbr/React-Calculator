@@ -1,0 +1,145 @@
+/***************************
+Base Imports
+***************************/
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Coiny", sans-serif;
+  font-weight: normal;
+  background-image: url("./images/deskBackground.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/***************************
+Layout Imports
+***************************/
+.appContainer {
+  width: 310px;
+  margin: 100px auto;
+  padding: 20px;
+  outline: none;
+  border-radius: 10px 20px 20px 25px;
+  border-right: 10px solid #84969e;
+  border-bottom: 10px solid #84969e;
+  box-shadow: 20px 20px 20px grey;
+  background: linear-gradient(135deg, #cedce7 0%, #9fb7c2 100%);
+}
+
+.displayContainer {
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px #757b7c inset;
+  padding: 4px;
+  border-radius: 5px;
+  border: 2px solid #999;
+}
+
+.calculatorRow {
+  display: -webkit-inline-box;
+  display: -moz-inline-box;
+  display: -ms-inline-flexbox;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  width: 100%;
+  margin-bottom: 7px;
+  justify-content: space-between;
+}
+
+/***************************
+Module Imports
+***************************/
+.display {
+  padding: 0 3px 0 3px;
+  text-align: right;
+  background-color: #d4e2e3;
+  border: 1px solid #ccc;
+  min-height: 38px;
+  line-height: 37px;
+  font-family: "Orbitron", sans-serif;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.displayTop {
+  font-size: 0.85rem;
+  border-radius: 3px 3px 0 0;
+  border-bottom: none;
+}
+
+.displayBottom {
+  font-size: 1.05rem;
+  border-radius: 0 0 3px 3px;
+  border-top: none;
+}
+
+.btn {
+  background-color: #e7e7e7;
+  border: none;
+  color: white;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  outline: none;
+}
+
+.btnDigit {
+  background-color: #a7a7a7;
+  box-shadow: 0 4px #969696;
+}
+
+.btnDigit:active {
+  transform: translateY(4px);
+  box-shadow: 0 2px #8c8c8c;
+}
+
+.btnOperation {
+  background-color: #343a40;
+  box-shadow: 0 4px #272b30;
+}
+
+.btnOperation:active {
+  transform: translateY(4px);
+  box-shadow: 0 2px #272b30;
+}
+
+.btnEqualize {
+  background-color: #28a745;
+  box-shadow: 0 4px #208839;
+}
+
+.btnEqualize:active {
+  transform: translateY(4px);
+  box-shadow: 0 2px #208839;
+}
+
+.btnDanger {
+  background-color: #dc3545;
+  box-shadow: 0 4px #b92d3b;
+}
+
+.btnDanger:active {
+  transform: translateY(4px);
+  box-shadow: 0 2px #b92d3b;
+}
+
+.btnWarning {
+  background-color: #ffc107;
+  box-shadow: 0 4px #c79706;
+}
+
+.btnWarning:active {
+  transform: translateY(4px);
+  box-shadow: 0 2px #c79706;
+}
+
+/*# sourceMappingURL=styles.css.map */

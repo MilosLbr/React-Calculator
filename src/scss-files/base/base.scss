@@ -1,0 +1,15 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+  
+body {
+    font-family: 'Coiny', sans-serif;
+    font-weight: normal;
+    background-image: url('./images/deskBackground.jpeg'); // source pixabay.com
+    background-repeat: no-repeat;
+    background-size: cover;
+}
